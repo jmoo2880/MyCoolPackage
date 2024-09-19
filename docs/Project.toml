@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+MyCoolPackage = "9c920d37-3fee-41b4-b611-4e3d1ef863fd"
