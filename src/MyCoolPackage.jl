@@ -5,10 +5,15 @@ module MyCoolPackage
 # import packages
 using Example
 
+# use import for functions you want to extend
+import Base: +, -
+
 # export functions
-export greet, farewell
+export greet, farewell,
+    MyNumber
 
 # include other scripts
 include("greeting_functions.jl")
+include("my_number.jl")
 
 end

@@ -1,6 +1,4 @@
 using MyCoolPackage
 using Test
 
-@testset "MyCoolPackage.jl" begin
-    # Write your tests here.
-end
+include("test_greeting_functions.jl")
