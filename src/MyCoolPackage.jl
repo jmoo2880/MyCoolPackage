@@ -10,7 +10,7 @@ import Base: +, -
 
 # export functions
 export greet, farewell,
-    MyNumber
+    MyNumber, myfunction
 
 # include other scripts
 include("greeting_functions.jl")
